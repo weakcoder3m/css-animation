@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3d transform</title>
+    <style>
+        div {
+            width: 300px;
+            border: 1px solid white;
+            height: 100px;
+            background-color: yellow;
+            border: 1px solid black;
+        }
+
+        #myDiv {
+            /* transform: rotateX(180deg); */
+            /* transform: rotateY(190deg); */
+            transform: rotateZ(90deg);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>With the CSS transform property you can use the following 3D transformation methods:
+
+        rotateX()
+        rotateY()
+        rotateZ()
+    </h1>
+
+    <h3>rotateX method</h3>
+    <p>The rotateX() method rotates an element around its X-axis at a given degree:</p>
+    <p>The rotateY() method rotates an element around its y-axis at a given degree:</p>
+
+    <div>
+        This a normal div element.
+    </div>
+
+    <div id="myDiv">
+        This div element is rotated 150 degrees.
+    </div>
+</body>
+
+</html>
